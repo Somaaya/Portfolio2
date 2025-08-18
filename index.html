@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo" data-en="Somaya Almutairi" data-ar="سٌميه المطيري">سٌميه المطيري</div>
+       <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav class="nav-links" id="nav-links">
+          <a href="#about" data-en="About me" data-ar="نبذة عني">نبذة عني</a>
+          <a href="#web" data-en="Web Projects" data-ar="تطوير الويب"> مشاريع الويب</a>
+          <a href="#ui" data-en="UI Projects" data-ar="تصميم الواجهات"> تصميم الواجهات</a>
+          <a href="#Contactme" data-en="Contact" data-ar="التواصل">تواصل</a>
+      </nav>
+    <div class="controls">
+      <button id="language-toggle">EN</button>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+  <section class="content fade-in">
+  <div class="textTitle">
+        <h2 class="aboutName" data-en="Welcome to" data-ar="مرحبًا">مرحبًا </h2>
+        <h2 class="aboutTitle" data-en="My Portfolio" data-ar="بك">بك </h2>
+      </div>
+  <p data-en="I am Somaya front-end developer , a passionate Web development and UI designer" data-ar="أنا سٌميه مطورة واجهات أمامية شغوفه بتطوير الويب وتصميم واجهات المستخدم">أنا سٌميه مطورة واجهات أمامية شغوفه بتطوير الويب وتصميم واجهات المستخدم  </p>
+    <a class="cv" href="Resume.pdf" download>
+        <img src="download.svg" alt="download icon" />
+        Download CV
+      </a>
+</section>
+
+    <section id="about" class="content fade-in">
+      <div class="textTitle">
+        <h2 class="aboutName" data-en="About" data-ar="نبذة">نبذة </h2>
+        <h2 class="aboutTitle" data-en="Me!" data-ar="عني!">عني!</h2>
+        </div>
+        <p data-en="I graduated with a Bachelor's degree in Computer Science from Taibah University. As a front-end developer, I strive to build beautiful, user-friendly websites. I am also passionate about user interface design and constantly strive to develop my skills and capabilities in this field." data-ar="خريجة بكالوريوس في علوم الحاسب الآلي من جامعة طيبة، مطورة واجهات أمامية وأسعى لبناء مواقع جميلة وسهلة الاستخدام، ومهتمة أيضًا بتصميم واجهات المستخدم أسعى لتطوير مهاراتي وقدراتي باستمرار في هذا المجال.">خريجة  بكالوريوس في علوم الحاسب الآلي من جامعة طيبة، مطورة واجهات أمامية وأسعى لبناء مواقع جميلة وسهلة الاستخدام، ومهتمة أيضًا بتصميم واجهات المستخدم أسعى لتطوير مهاراتي وقدراتي باستمرار في هذا المجال.</p>
+      </section>
+
+      <section id="web"class="content fade-in" >
+        <div class="textTitle">
+        <h2 class="aboutName" data-en="Web" data-ar="مشاريع">مشاريع </h2>
+        <h2 class="aboutTitle" data-en="Projects" data-ar="الويب">الويب</h2>
+        </div>
+
+         <div class="card-container">
+
+        <div class="project-card">
+            <img src="Nature.png" alt="Nature" class="project-img">
+            <div class="project-info">
+          <a href="https://somaaya.github.io/Nature/" class="project-title">Nature</a>
+            <p class="project-desc" data-en="My website presents various nature-related concepts in a simple way, such as types of nature, natural resources, natural factors, wildlife, plants, and natural elements like water, fire, soil, and minerals." data-ar="يناقش موقعي بطريقة مبسطة مفاهيم مختلفة تتعلق بالطبيعة مثل أنواع الطبيعة والموارد الطبيعية والعوامل الطبيعية والحياة البرية والنباتات وعناصر الطبيعة مثل الماء، والنار، والتربة، والمعادن.">يناقش موقعي بطريقة مبسطة مفاهيم مختلفة تتعلق بالطبيعة مثل أنواع الطبيعة والموارد الطبيعية والعوامل الطبيعية والحياة البرية والنباتات وعناصر الطبيعة مثل الماء، والنار، والتربة، والمعادن.</p>
+              <div class="tech-list">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+            </div>
+            </div>
+            </div>
+
+        <div class="project-card">
+            <img src="project.png" alt="project" class="project-img">
+            <div class="project-info">
+          <a href="https://somaaya.github.io/project2/" class="project-title"  data-en="Saudi Open Source Projects" data-ar="مشاريع سعوديه مفتوحة المصدر">مشاريع سعوديه مفتوحة المصدر</a>
+           <p class="project-desc"  data-en="A small contribution from me to the Front-End design of the website." data-ar="مشاركه بسيطه مني في تصميم (Front-End) للموقع">مشاركه بسيطه مني في تصميم (Front-End) للموقع</p>
+                <div class="tech-list">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+            </div>    
+           </div>
+        </div>
+
+        <div class="project-card">
+            <img src="project3.png" alt=" project3" class="project-img">
+            <div class="project-info">
+          <a href="https://somaaya.github.io/project3/" class="project-title"  data-en="Maseer" data-ar="مَـسير">مَـسير</a>
+          <p class="project-desc"  data-en="Participation in Hackathon for the Guests of the Most Merciful to build a website that illustrates the core idea." data-ar="مشاركة في هاكثون خدمه ضيوف الرحمن في بناء موقع يوضح الفكره البسيطه">مشاركة في هاكثون خدمه ضيوف الرحمن في بناء موقع يوضح الفكره البسيطه</p>
+             <div class="tech-list">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+            </div>
+            </div>
+        </div>
+
+                <div class="project-card">
+            <img src="Portfolio.png" alt=" project4" class="project-img">
+            <div class="project-info">
+          <a href="https://somaaya.github.io/my-Portfolio/" class="project-title"  data-en="My Portfolio" data-ar="ملف أعمالي">ملف أعمالي</a>
+          <p class="project-desc"  data-en="An initial draft of how my portfolio could look, containing some mistakes." data-ar="تصميم أولي لكيف ممكن يكون ملف أعمالي يحتوي على أغلاط">تصميم أولي لكيف ممكن يكون ملف أعمالي يحتوي على أغلاط </p>
+             <div class="tech-list">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+            </div>
+            </div>
+        </div>
+
+             <div class="project-card">
+            <img src="weather.png" alt=" project5" class="project-img">
+            <div class="project-info">
+          <a href="https://projectweather0.netlify.app/" class="project-title"  data-en="Weather App" data-ar="تطبيق طقس">تطبيق طقس</a>
+          <p class="project-desc"  data-en="Through practicing code implementation, I began programming from scratch, line by line, to identify and fix errors. Eventually, I developed an interactive weather page." data-ar="مع ممارسة تطبيق الأكواد بدأت أبرمج بنفسي من الصفر، سطرًا بسطر، حتى أستطيع ملاحظة أين يقع الخطأ وتصحيحه ف النهاية أنشأت صفحة تفاعلية عن الطقس">مع ممارسة تطبيق الأكواد بدأت أبرمج بنفسي من الصفر، سطرًا بسطر، حتى أستطيع ملاحظة أين يقع الخطأ وتصحيحه ف النهاية أنشأت صفحة تفاعلية عن الطقس</p>
+             <div class="tech-list">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+            </div>
+            </div>
+        </div>
+
+    </div>
+      </section>
+
+  <section id="ui"  class="content fade-in">
+     <div class="textTitle">
+        <h2 class="aboutName"  data-en="UI" data-ar="تصميم">تصميم </h2>
+        <h2 class="aboutTitle" data-en="Projects" data-ar="الواجهات">الواجهات</h2>
+        </div>
+      <div class="iframe-wrapper">
+        <iframe   src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/CrvZo5HpvSW8Tdt60HKdN4" allowfullscreen></iframe>
+        <iframe   src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/lKEnAuYMcrRMrjYyAXvcnK/Music" allowfullscreen></iframe>
+        <iframe   src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/dy3TODPaPTzXLiWlu5zhVI/Habits-Tracker?node-id=6-7&t=ImmfKZ8MQDvc8j9m-1" allowfullscreen></iframe>
+        <iframe   src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/bgfcBMK56ZU9CHnDJpFfCw/ART" allowfullscreen></iframe>
+        <iframe   src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/TfRwRUXmOVpky934rmHsbk/Fitness" allowfullscreen></iframe>
+        <iframe   src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/hNNwH5vOOZloBUYHqW73EK/My-portfolio?node-id=0-1&t=rYSI5twN9gE2qKvw-1" allowfullscreen></iframe>
+     </div>
+      </section>
+
+      <section id="Contactme"  class="content fade-in">
+        <h2 class="contact-title" data-en="Contact" data-ar="تواصل معي">تواصل معي</h2>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/somaya-almutairi" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/som22aya?s=21&t=YOCMPF2hytPHgdXisljRIQ" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/Somaaya" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </section>
+    
+  </main>
+</body>
+</html>
+
+
+
